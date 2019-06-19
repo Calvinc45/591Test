@@ -106,7 +106,8 @@ public class Car1 {
 		System.out.println(myCar.getCurrentSpeed());
 		System.out.println(myCar.getCurrentFuelLevel());
 		*/
-		Car1 myCar = new Car1("NX 300", "Lexus", "Black", 35, 100);
+
+		Car1 myCar = new Car1("Accord", "Honda", "Magenta", 35, 1000000);
 		System.out.println(myCar.model);
 		myCar.drive(50, "WEST", 20);
 	}
